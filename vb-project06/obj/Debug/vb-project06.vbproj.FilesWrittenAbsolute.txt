@@ -1,0 +1,5 @@
+/Users/pablo/Documents/i-workspace/visual basic/vb-project06/vb-project06/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.vb
+/Users/pablo/Documents/i-workspace/visual basic/vb-project06/vb-project06/obj/Debug/vb_project06.Form.resources
+/Users/pablo/Documents/i-workspace/visual basic/vb-project06/vb-project06/obj/Debug/vb_project06.Resources.resources
+/Users/pablo/Documents/i-workspace/visual basic/vb-project06/vb-project06/obj/Debug/vb-project06.exe
+/Users/pablo/Documents/i-workspace/visual basic/vb-project06/vb-project06/obj/Debug/vb-project06.pdb

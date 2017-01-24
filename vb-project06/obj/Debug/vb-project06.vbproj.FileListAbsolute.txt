@@ -1,0 +1,11 @@
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\bin\Debug\vb-project06.exe.config
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\bin\Debug\vb-project06.exe
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\bin\Debug\vb-project06.pdb
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\bin\Debug\vb-project06.xml
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.vbprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb_project06.Resources.resources
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.vbproj.GenerateResource.Cache
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.exe
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.xml
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.pdb
+\\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb_project06.Form.resources
