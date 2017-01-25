@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8be60667-c649-43b7-9d29-4ba487f036dc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Form1.vb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vb-project06/Form1.vb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="186" column="15" lean-forward="true" selection-start-line="186" selection-start-column="15" selection-end-line="186" selection-end-column="15" />
+              <folding>
+                <marker date="1485385033818" expanded="true" signature="18:12576" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="100:133" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="218:252" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="367:1364" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="1398:1618" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="1652:1853" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="1887:2184" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="2218:2499" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="2533:2777" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="2811:3022" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="3057:3246" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="3281:3464" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="3499:3680" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="3715:3895" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="3934:4106" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="4145:4312" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="4351:4530" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="4569:4738" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="4828:5773" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="5809:5980" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="6016:6187" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="6223:6414" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="6450:6928" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="6964:7642" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="7678:7849" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="7886:8140" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="8177:8431" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="8468:8722" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="8759:9013" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="9054:9312" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="9353:9600" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="9641:9879" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="9920:10172" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="10225:10308" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="10338:10492" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="10523:10614" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="10644:10762" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="10794:10961" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="10995:11165" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="11332:11537" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="11668:11911" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="12048:12328" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="12413:12451" ph="..." />
+                <marker date="1485385033818" expanded="true" signature="12536:12574" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vb-project06/Form1.vb" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vb-project06 (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vb-project06" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form1.vb" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vb-project06 (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vb-project06" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/vb-project06/vb-project06.vbproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="Default" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/vb-project06/bin/Debug/vb-project06.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vb-project06/bin/Debug" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8be60667-c649-43b7-9d29-4ba487f036dc" name="Default" comment="" />
+      <created>1485371355622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485371355622</updated>
+      <workItem from="1485371357818" duration="7038000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7038000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25974026" sideWeight="0.5021322" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25974026" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14978679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vb-project06/Form1.Designer.vb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485383306216" expanded="true" signature="186:15186" ph="..." />
+            <marker date="1485383306216" expanded="true" signature="297:510" ph="..." />
+            <marker date="1485383306216" expanded="true" signature="879:14154" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vb-project06/Form1.vb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="186" column="15" lean-forward="true" selection-start-line="186" selection-start-column="15" selection-end-line="186" selection-end-column="15" />
+          <folding>
+            <marker date="1485385033818" expanded="true" signature="18:12576" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="100:133" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="218:252" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="367:1364" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="1398:1618" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="1652:1853" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="1887:2184" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="2218:2499" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="2533:2777" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="2811:3022" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="3057:3246" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="3281:3464" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="3499:3680" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="3715:3895" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="3934:4106" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="4145:4312" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="4351:4530" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="4569:4738" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="4828:5773" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="5809:5980" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="6016:6187" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="6223:6414" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="6450:6928" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="6964:7642" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="7678:7849" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="7886:8140" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="8177:8431" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="8468:8722" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="8759:9013" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="9054:9312" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="9353:9600" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="9641:9879" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="9920:10172" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="10225:10308" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="10338:10492" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="10523:10614" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="10644:10762" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="10794:10961" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="10995:11165" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="11332:11537" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="11668:11911" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="12048:12328" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="12413:12451" ph="..." />
+            <marker date="1485385033818" expanded="true" signature="12536:12574" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

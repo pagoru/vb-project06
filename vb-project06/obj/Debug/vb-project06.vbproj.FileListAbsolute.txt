@@ -9,3 +9,14 @@
 \\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.xml
 \\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.pdb
 \\Mac\Home\Documents\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb_project06.Form.resources
+D:\i-workspace\visual basic\vb-project06\vb-project06\bin\Debug\vb-project06.exe.config
+D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.exe
+D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.xml
+D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.pdb
+D:\i-workspace\visual basic\vb-project06\vb-project06\bin\Debug\vb-project06.exe
+D:\i-workspace\visual basic\vb-project06\vb-project06\bin\Debug\vb-project06.pdb
+D:\i-workspace\visual basic\vb-project06\vb-project06\bin\Debug\vb-project06.xml
+D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.vbprojResolveAssemblyReference.cache
+D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb_project06.Form.resources
+D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb_project06.Resources.resources
+D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.vbproj.GenerateResource.Cache
