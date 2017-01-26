@@ -23,25 +23,25 @@ Partial Class Form
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Àrea del triangle")
-        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Àrea de la rodona")
-        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Longitud de la Circumferència")
-        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Àrea Rectangle")
-        Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Àrees i Longituds", New System.Windows.Forms.TreeNode() {TreeNode19, TreeNode20, TreeNode21, TreeNode22})
-        Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Suma de dos números")
-        Dim TreeNode25 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Resta de dos números")
-        Dim TreeNode26 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Divisió de dos números")
-        Dim TreeNode27 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Multiplicació de dos números")
-        Dim TreeNode28 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Aritmètica", New System.Windows.Forms.TreeNode() {TreeNode24, TreeNode25, TreeNode26, TreeNode27})
-        Dim TreeNode29 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Donada una cadena mostrar la seva invertida")
-        Dim TreeNode30 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Donada una cadena mostrar el número de vocals i consonants que té la cadena")
-        Dim TreeNode31 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Donat dos caracters dins quantes vegades apareix aquest dos caracters seguints en" &
+        Dim TreeNode37 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Àrea del triangle")
+        Dim TreeNode38 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Àrea de la rodona")
+        Dim TreeNode39 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Longitud de la Circumferència")
+        Dim TreeNode40 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Àrea Rectangle")
+        Dim TreeNode41 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Àrees i Longituds", New System.Windows.Forms.TreeNode() {TreeNode37, TreeNode38, TreeNode39, TreeNode40})
+        Dim TreeNode42 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Suma de dos números")
+        Dim TreeNode43 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Resta de dos números")
+        Dim TreeNode44 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Divisió de dos números")
+        Dim TreeNode45 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Multiplicació de dos números")
+        Dim TreeNode46 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Aritmètica", New System.Windows.Forms.TreeNode() {TreeNode42, TreeNode43, TreeNode44, TreeNode45})
+        Dim TreeNode47 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Donada una cadena mostrar la seva invertida")
+        Dim TreeNode48 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Donada una cadena mostrar el número de vocals i consonants que té la cadena")
+        Dim TreeNode49 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Donat dos caracters dins quantes vegades apareix aquest dos caracters seguints en" &
         " una frase")
-        Dim TreeNode32 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cadenes", New System.Windows.Forms.TreeNode() {TreeNode29, TreeNode30, TreeNode31})
-        Dim TreeNode33 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Transformar un numero enter")
-        Dim TreeNode34 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fibornacci de n números")
-        Dim TreeNode35 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("La taula de múltiplicar d’un número del 1 al n número indicat")
-        Dim TreeNode36 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Altres", New System.Windows.Forms.TreeNode() {TreeNode33, TreeNode34, TreeNode35})
+        Dim TreeNode50 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cadenes", New System.Windows.Forms.TreeNode() {TreeNode47, TreeNode48, TreeNode49})
+        Dim TreeNode51 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Transformar un numero enter")
+        Dim TreeNode52 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fibornacci de n números")
+        Dim TreeNode53 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("La taula de múltiplicar d’un número del 1 al n número indicat")
+        Dim TreeNode54 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Altres", New System.Windows.Forms.TreeNode() {TreeNode51, TreeNode52, TreeNode53})
         Me.TreeView = New System.Windows.Forms.TreeView()
         Me.Input1 = New System.Windows.Forms.TextBox()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
@@ -70,44 +70,44 @@ Partial Class Form
         '
         Me.TreeView.Location = New System.Drawing.Point(13, 13)
         Me.TreeView.Name = "TreeView"
-        TreeNode19.Name = "AreaLong_1"
-        TreeNode19.Text = "Àrea del triangle"
-        TreeNode20.Name = "AreaLong_2"
-        TreeNode20.Text = "Àrea de la rodona"
-        TreeNode21.Name = "AreaLong_3"
-        TreeNode21.Text = "Longitud de la Circumferència"
-        TreeNode22.Name = "AreaLong_4"
-        TreeNode22.Text = "Àrea Rectangle"
-        TreeNode23.Name = "root_AreaLong"
-        TreeNode23.Text = "Àrees i Longituds"
-        TreeNode24.Name = "Arit_1"
-        TreeNode24.Text = "Suma de dos números"
-        TreeNode25.Name = "Arit_2"
-        TreeNode25.Text = "Resta de dos números"
-        TreeNode26.Name = "Arit_3"
-        TreeNode26.Text = "Divisió de dos números"
-        TreeNode27.Name = "Arit_4"
-        TreeNode27.Text = "Multiplicació de dos números"
-        TreeNode28.Name = "root_Arit"
-        TreeNode28.Text = "Aritmètica"
-        TreeNode29.Name = "Cad_1"
-        TreeNode29.Text = "Donada una cadena mostrar la seva invertida"
-        TreeNode30.Name = "Cad_2"
-        TreeNode30.Text = "Donada una cadena mostrar el número de vocals i consonants que té la cadena"
-        TreeNode31.Name = "Cad_3"
-        TreeNode31.Text = "Donat dos caracters dins quantes vegades apareix aquest dos caracters seguints en" &
+        TreeNode37.Name = "AreaLong_1"
+        TreeNode37.Text = "Àrea del triangle"
+        TreeNode38.Name = "AreaLong_2"
+        TreeNode38.Text = "Àrea de la rodona"
+        TreeNode39.Name = "AreaLong_3"
+        TreeNode39.Text = "Longitud de la Circumferència"
+        TreeNode40.Name = "AreaLong_4"
+        TreeNode40.Text = "Àrea Rectangle"
+        TreeNode41.Name = "root_AreaLong"
+        TreeNode41.Text = "Àrees i Longituds"
+        TreeNode42.Name = "Arit_1"
+        TreeNode42.Text = "Suma de dos números"
+        TreeNode43.Name = "Arit_2"
+        TreeNode43.Text = "Resta de dos números"
+        TreeNode44.Name = "Arit_3"
+        TreeNode44.Text = "Divisió de dos números"
+        TreeNode45.Name = "Arit_4"
+        TreeNode45.Text = "Multiplicació de dos números"
+        TreeNode46.Name = "root_Arit"
+        TreeNode46.Text = "Aritmètica"
+        TreeNode47.Name = "Cad_1"
+        TreeNode47.Text = "Donada una cadena mostrar la seva invertida"
+        TreeNode48.Name = "Cad_2"
+        TreeNode48.Text = "Donada una cadena mostrar el número de vocals i consonants que té la cadena"
+        TreeNode49.Name = "Cad_3"
+        TreeNode49.Text = "Donat dos caracters dins quantes vegades apareix aquest dos caracters seguints en" &
     " una frase"
-        TreeNode32.Name = "root_Cad"
-        TreeNode32.Text = "Cadenes"
-        TreeNode33.Name = "Alt_1"
-        TreeNode33.Text = "Transformar un numero enter"
-        TreeNode34.Name = "Alt_2"
-        TreeNode34.Text = "Fibornacci de n números"
-        TreeNode35.Name = "Alt_3"
-        TreeNode35.Text = "La taula de múltiplicar d’un número del 1 al n número indicat"
-        TreeNode36.Name = "root_Alt"
-        TreeNode36.Text = "Altres"
-        Me.TreeView.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode23, TreeNode28, TreeNode32, TreeNode36})
+        TreeNode50.Name = "root_Cad"
+        TreeNode50.Text = "Cadenes"
+        TreeNode51.Name = "Alt_1"
+        TreeNode51.Text = "Transformar un numero enter"
+        TreeNode52.Name = "Alt_2"
+        TreeNode52.Text = "Fibornacci de n números"
+        TreeNode53.Name = "Alt_3"
+        TreeNode53.Text = "La taula de múltiplicar d’un número del 1 al n número indicat"
+        TreeNode54.Name = "root_Alt"
+        TreeNode54.Text = "Altres"
+        Me.TreeView.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode41, TreeNode46, TreeNode50, TreeNode54})
         Me.TreeView.Size = New System.Drawing.Size(221, 322)
         Me.TreeView.TabIndex = 0
         '
@@ -123,7 +123,7 @@ Partial Class Form
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InitToolStripMenuItem, Me.IncrementarEn1ToolStripMenuItem, Me.DecrementarEn1ToolStripMenuItem, Me.ToolStripSeparator1, Me.CopiarToolStripMenuItem, Me.TallarToolStripMenuItem, Me.EnganxarToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(175, 142)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(175, 164)
         '
         'InitToolStripMenuItem
         '

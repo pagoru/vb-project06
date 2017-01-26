@@ -57,8 +57,9 @@
     'inputs
     Private Function View_Alt3()
         Title.Text = "La taula de múltiplicar d’un número del 1 al n número indicat."
-        Text_Input1.Text = "Número enter"
-        Input2.Visible = False
+        Text_Input1.Text = "Número a multiplicar"
+        Text_Input2.Text = "Número limit"
+        ListBoxResult.Visible = True
         NumericPanel()
         Return False
     End Function
@@ -75,6 +76,7 @@
     Private Function View_Alt2()
         Title.Text = "Fibornacci de n números: (7) 1 1 2 3 5 8 13"
         Text_Input1.Text = "Número enter"
+        ListBoxResult.Visible = True
         Input2.Visible = False
         NumericPanel()
         Return False
@@ -319,9 +321,13 @@
     'de Altres 3
     Private Function Result_Alt3()
         Try
-            'Fibonacci
-            ResultText.Text = "El recompte es de "
+            ListBoxResult.Items.Clear()
+            For m As Integer = 0 To CType(Input2.Text, Integer)
+                ListBoxResult.Items.Add((CType(Input1.Text, Integer) * m).ToString())
+            Next
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -333,9 +339,13 @@
     'de Altres 2
     Private Function Result_Alt2()
         Try
-            'Fibonacci
-            ResultText.Text = "El recompte es de "
+            ListBoxResult.Items.Clear()
+            For f As Integer = 0 To CType(Input1.Text, Integer)
+                ListBoxResult.Items.Add(GetFibonacci(f).ToString())
+            Next
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -349,6 +359,8 @@
         Try
             ResultText.Text = "El nombre en català es " + GetNameFromNumber(CType(Input1.Text, Integer))
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -372,6 +384,8 @@
 
             ResultText.Text = "El recompte es de " + CType(count, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -398,6 +412,8 @@
 
             ResultText.Text = "El resultat es de " + CType(voc, String) + " vocals y " + CType(con, String) + " consonants."
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -411,6 +427,8 @@
         Try
             ResultText.Text = "El resultat es " + StrReverse(Input1.Text)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -425,6 +443,8 @@
             Dim res As Double = (Double.Parse(Input1.Text) * Double.Parse(Input2.Text))
             ResultText.Text = "El resultat es " + CType(res, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -439,6 +459,8 @@
             Dim res As Double = (Double.Parse(Input1.Text) / Double.Parse(Input2.Text))
             ResultText.Text = "El resultat es " + CType(res, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -453,6 +475,8 @@
             Dim res As Double = (Double.Parse(Input1.Text) - Double.Parse(Input2.Text))
             ResultText.Text = "El resultat es " + CType(res, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -467,6 +491,8 @@
             Dim res As Double = (Double.Parse(Input1.Text) + Double.Parse(Input2.Text))
             ResultText.Text = "El resultat es " + CType(res, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -481,6 +507,8 @@
             Dim res As Double = (Double.Parse(Input1.Text) * Double.Parse(Input2.Text)) / 2
             ResultText.Text = "El resultat es " + CType(res, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -495,6 +523,8 @@
             Dim res As Double = Math.PI * Math.Pow(Double.Parse(Input1.Text), 2)
             ResultText.Text = "El resultat es " + CType(res, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -509,6 +539,8 @@
             Dim res As Double = 2 * Math.PI * Double.Parse(Input1.Text)
             ResultText.Text = "El resultat es " + CType(res, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -523,6 +555,8 @@
             Dim res As Double = Double.Parse(Input1.Text) * Double.Parse(Input2.Text)
             ResultText.Text = "El resultat es " + CType(res, String)
         Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
         Return False
@@ -543,6 +577,8 @@
         Text_Input2.Text = ""
         Input1.Visible = True
         Input2.Visible = True
+        ListBoxResult.Visible = False
+        ListBoxResult.Items.Clear()
         ClearInputs()
     End Sub
 
@@ -552,6 +588,7 @@
         Input1.Text = ""
         Input2.Text = ""
         ResultText.Text = ""
+        ListBoxResult.Items.Clear()
     End Sub
 
     'Tanca el panel actual
@@ -629,6 +666,52 @@
                 Input2.Text = text
             End If
         End If
+    End Sub
+
+    'Event que sexecuta quan
+    'es prem lopcio inicialitzar
+    'text en un input, aquest
+    'introdueix el numero 0
+    Private Sub InitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InitToolStripMenuItem.Click
+        If _activeTextBox = 1 Then
+            Input1.Text = "0"
+        ElseIf _activeTextBox = 2 Then
+            Input2.Text = "0"
+        End If
+    End Sub
+
+    'Event que sexecuta quan
+    'es prem lopcio de incrementar
+    'text en un input, aquest
+    'incrementa el valor actual
+    Private Sub IncrementarEn1ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IncrementarEn1ToolStripMenuItem.Click
+        Try
+            If _activeTextBox = 1 Then
+                Input1.Text = (CType(Input1.Text, Integer) + 1)
+            ElseIf _activeTextBox = 2 Then
+                Input2.Text = (CType(Input2.Text, Integer) + 1)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    'Event que sexecuta quan
+    'es prem lopcio de decrementar
+    'text en un input, aquest
+    'decrementa el valor actual
+    Private Sub DecrementarEn1ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DecrementarEn1ToolStripMenuItem.Click
+        Try
+            If _activeTextBox = 1 Then
+                Input1.Text = (CType(Input1.Text, Integer) - 1)
+            ElseIf _activeTextBox = 2 Then
+                Input2.Text = (CType(Input2.Text, Integer) - 1)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     'Event que sactiva quan el Input1
@@ -724,6 +807,20 @@
                 Return GetNameFromNumberRecursive(number, 0, 1) + " milions " + GetNameFromNumberRecursive(number, 1, 6)
         End Select
         Return ""
+    End Function
+
+    'Funcio recursiva
+    'que retorna pasat un index
+    'de la serie fibonacci, el 
+    'numero que li pertoca en
+    'aquesta.
+    Private Function GetFibonacci(reiterations As Integer)
+        If reiterations > 1 Then
+            Return GetFibonacci(reiterations - 1) + GetFibonacci(reiterations - 2)
+        ElseIf reiterations = 1 Then
+            Return 1
+        End If
+        Return 0
     End Function
 
 End Class
