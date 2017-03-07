@@ -210,6 +210,48 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BasePrimari\Alt\FormAlt1.resx">
+      <DependentUpon>FormAlt1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Alt\FormAlt2.resx">
+      <DependentUpon>FormAlt2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Alt\FormAlt3.resx">
+      <DependentUpon>FormAlt3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Area\FormArea1.resx">
+      <DependentUpon>FormArea1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Area\FormArea2.resx">
+      <DependentUpon>FormArea2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Area\FormArea3.resx">
+      <DependentUpon>FormArea3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Area\FormArea4.resx">
+      <DependentUpon>FormArea4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Arit\FormArit1.resx">
+      <DependentUpon>FormArit1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Arit\FormArit2.resx">
+      <DependentUpon>FormArit2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Arit\FormArit3.resx">
+      <DependentUpon>FormArit3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Arit\FormArit4.resx">
+      <DependentUpon>FormArit4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Cad\FormCad1.resx">
+      <DependentUpon>FormCad1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Cad\FormCad2.resx">
+      <DependentUpon>FormCad2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\Cad\FormCad3.resx">
+      <DependentUpon>FormCad3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BasePrimari\FormAlt.resx">
       <DependentUpon>FormAlt.vb</DependentUpon>
     </EmbeddedResource>

@@ -22,8 +22,31 @@ Partial Class FormArea3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'ResultText
+        '
+        Me.ResultText.Text = ""
+        '
+        'Result
+        '
+        '
+        'FormArea3
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(330, 343)
+        Me.Name = "FormArea3"
         Me.Text = "FormArea3"
+        Me.Controls.SetChildIndex(Me.Title, 0)
+        Me.Controls.SetChildIndex(Me.Result, 0)
+        Me.Controls.SetChildIndex(Me.Input2, 0)
+        Me.Controls.SetChildIndex(Me.Text_Input1, 0)
+        Me.Controls.SetChildIndex(Me.Text_Input2, 0)
+        Me.Controls.SetChildIndex(Me.Input1, 0)
+        Me.Controls.SetChildIndex(Me.ResultText, 0)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
 End Class

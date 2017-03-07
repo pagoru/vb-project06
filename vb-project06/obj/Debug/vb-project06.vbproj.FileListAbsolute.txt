@@ -36,3 +36,17 @@ C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.Form
 C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormAlt.resources
 C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArea.resources
 C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArit.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormAlt1.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormAlt2.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormAlt3.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArea1.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArea2.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArea3.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArea4.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArit1.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArit2.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArit3.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArit4.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormCad1.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormCad2.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormCad3.resources

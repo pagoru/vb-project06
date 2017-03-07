@@ -1,6 +1,8 @@
 ﻿Public Class FormAlt
-    Private Sub FormAlt_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Protected Sub FormAlt_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ResultText.Text = ""
+        Text_Input1.Text = ""
+        Text_Input2.Text = ""
     End Sub
 
 #Region "Loads"
@@ -13,7 +15,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_Alt3()
+    Protected Function View_Alt3()
         Title.Text = "La taula de múltiplicar d’un número del 1 al n número indicat."
         Text_Input1.Text = "Número a multiplicar"
         Text_Input2.Text = "Número limit"
@@ -30,7 +32,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_Alt2()
+    Protected Function View_Alt2()
         Title.Text = "Fibornacci de n números: (7) 1 1 2 3 5 8 13"
         Text_Input1.Text = "Número enter"
         ListBoxResult.Visible = True
@@ -47,7 +49,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_Alt1()
+    Protected Function View_Alt1()
         Title.Text = "Transformar un numero enter, com màxim el 999.999.999, a lletres (castellà o català), per exemple 1567 -> ‘mil quinientos sesenta y siete’."
         Text_Input1.Text = "Número enter"
         Input2.Visible = False
@@ -59,7 +61,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de Altres 3
-    Private Function Result_Alt3()
+    Protected Function Result_Alt3()
         Try
             ListBoxResult.Items.Clear()
             For m As Integer = 0 To CType(Input2.Text, Integer)
@@ -77,7 +79,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de Altres 2
-    Private Function Result_Alt2()
+    Protected Function Result_Alt2()
         Try
             ListBoxResult.Items.Clear()
             For f As Integer = 0 To CType(Input1.Text, Integer)
@@ -95,7 +97,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de Altres 1
-    Private Function Result_Alt1()
+    Protected Function Result_Alt1()
         Try
             ResultText.Text = "El nombre en català es " + GetNameFromNumber(CType(Input1.Text, Integer))
         Catch ex As Exception
@@ -111,7 +113,7 @@
     'GetNameFromNumber, que permet
     'extreure el nom de un nombre
     'enter en catala
-    Private Function GetNameFromNumberRecursive(number As String, dis As Integer, len As Integer)
+    Protected Function GetNameFromNumberRecursive(number As String, dis As Integer, len As Integer)
         Return GetNameFromNumber(CType(number.ToString().Substring(dis, len), Integer))
     End Function
 
@@ -120,7 +122,7 @@
     'metode que crida a aquest mateix
     '(recursivitat) per tal de poder
     'extreure bona part dels nombres
-    Private Function GetNameFromNumber(number As Integer)
+    Protected Function GetNameFromNumber(number As Integer)
         Select Case (number)
             Case 1 : Return "u"
             Case 2 : Return "dos"
@@ -190,7 +192,7 @@
     'de la serie fibonacci, el 
     'numero que li pertoca en
     'aquesta.
-    Private Function GetFibonacci(reiterations As Integer)
+    Protected Function GetFibonacci(reiterations As Integer)
         If reiterations > 1 Then
             Return GetFibonacci(reiterations - 1) + GetFibonacci(reiterations - 2)
         ElseIf reiterations = 1 Then
@@ -198,5 +200,12 @@
         End If
         Return 0
     End Function
+
+    Private Sub Remove_Click(sender As Object, e As EventArgs) Handles Remove.Click
+        Input1.Text = ""
+        Input2.Text = ""
+        ListBoxResult.Items.Clear()
+        ResultText.Text = ""
+    End Sub
 #End Region
 End Class

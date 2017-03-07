@@ -13,7 +13,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_AreaLong1()
+    Protected Function View_AreaLong1()
         Title.Text = "Àrea del triangle"
         Text_Input1.Text = "Base"
         Text_Input2.Text = "Alçada"
@@ -29,7 +29,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_AreaLong2()
+    Protected Function View_AreaLong2()
         Title.Text = "Àrea de la rodona"
         Text_Input1.Text = "Radi"
         Input2.Visible = False
@@ -45,7 +45,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_AreaLong3()
+    Protected Function View_AreaLong3()
         Title.Text = "Longitud de la Circumferència"
         Text_Input1.Text = "Radi"
         Input2.Visible = False
@@ -61,7 +61,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_AreaLong4()
+    Protected Function View_AreaLong4()
         Title.Text = "Àrea Rectangle"
         Text_Input1.Text = "Base"
         Text_Input2.Text = "Alçada"
@@ -73,7 +73,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de lArea i Longitud 1
-    Private Function Result_AreaLong1()
+    Protected Function Result_AreaLong1()
         Try
             Dim res As Double = (Double.Parse(Input1.Text) * Double.Parse(Input2.Text)) / 2
             ResultText.Text = "El resultat es " + CType(res, String)
@@ -89,7 +89,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de lArea i Longitud 2
-    Private Function Result_AreaLong2()
+    Protected Function Result_AreaLong2()
         Try
             Dim res As Double = Math.PI * Math.Pow(Double.Parse(Input1.Text), 2)
             ResultText.Text = "El resultat es " + CType(res, String)
@@ -105,7 +105,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de lArea i Longitud 3
-    Private Function Result_AreaLong3()
+    Protected Function Result_AreaLong3()
         Try
             Dim res As Double = 2 * Math.PI * Double.Parse(Input1.Text)
             ResultText.Text = "El resultat es " + CType(res, String)
@@ -121,7 +121,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de lArea i Longitud 4
-    Private Function Result_AreaLong4()
+    Protected Function Result_AreaLong4()
         Try
             Dim res As Double = Double.Parse(Input1.Text) * Double.Parse(Input2.Text)
             ResultText.Text = "El resultat es " + CType(res, String)
@@ -132,5 +132,11 @@
 
         Return False
     End Function
+
+    Private Sub Remove_Click(sender As Object, e As EventArgs) Handles Remove.Click
+        Input1.Text = ""
+        Input2.Text = ""
+        ResultText.Text = ""
+    End Sub
 #End Region
 End Class

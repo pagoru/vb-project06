@@ -13,7 +13,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_Cad3()
+    Protected Function View_Cad3()
         Title.Text = "Donat dos caracters dins quantes vegades apareix aquest dos caracters seguints en una frase."
         Text_Input1.Text = "Cadena de carácters"
         Text_Input2.Text = "Dos carácters a buscar"
@@ -29,7 +29,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_Cad2()
+    Protected Function View_Cad2()
         Title.Text = "Donada una cadena mostrar el número de vocals i consonants que té la cadena."
         Text_Input1.Text = "Cadena de carácters"
         Input2.Visible = False
@@ -45,7 +45,7 @@
     'un metode per elegir si les opcions
     'disponibles del click dret sobre els
     'inputs
-    Private Function View_Cad1()
+    Protected Function View_Cad1()
         Title.Text = "Donada una cadena mostrar la seva invertida"
         Text_Input1.Text = "Cadena de carácters"
         Input2.Visible = False
@@ -57,7 +57,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de Cadena de caracters 3
-    Private Function Result_Cad3()
+    Protected Function Result_Cad3()
         Try
             Dim count As Integer = 0
 
@@ -82,7 +82,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de Cadena de caracters 2
-    Private Function Result_Cad2()
+    Protected Function Result_Cad2()
         Try
             Dim voc As Integer = 0
             Dim con As Integer = 0
@@ -110,7 +110,7 @@
     'resultat la informacio
     'de les operacions resultants
     'de Cadena de caracters 1
-    Private Function Result_Cad1()
+    Protected Function Result_Cad1()
         Try
             ResultText.Text = "El resultat es " + StrReverse(Input1.Text)
         Catch ex As Exception
@@ -120,5 +120,11 @@
 
         Return False
     End Function
+
+    Private Sub Remove_Click(sender As Object, e As EventArgs) Handles Remove.Click
+        Input1.Text = ""
+        Input2.Text = ""
+        ResultText.Text = ""
+    End Sub
 #End Region
 End Class
