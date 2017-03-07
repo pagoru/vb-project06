@@ -72,6 +72,90 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasePrimari\Alt\FormAlt1.Designer.vb">
+      <DependentUpon>FormAlt1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Alt\FormAlt1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Alt\FormAlt2.Designer.vb">
+      <DependentUpon>FormAlt2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Alt\FormAlt2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Alt\FormAlt3.Designer.vb">
+      <DependentUpon>FormAlt3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Alt\FormAlt3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Area\FormArea1.Designer.vb">
+      <DependentUpon>FormArea1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Area\FormArea1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Area\FormArea2.Designer.vb">
+      <DependentUpon>FormArea2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Area\FormArea2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Area\FormArea3.Designer.vb">
+      <DependentUpon>FormArea3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Area\FormArea3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Area\FormArea4.Designer.vb">
+      <DependentUpon>FormArea4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Area\FormArea4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Cad\FormCad1.Designer.vb">
+      <DependentUpon>FormCad1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Cad\FormCad1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Cad\FormCad2.Designer.vb">
+      <DependentUpon>FormCad2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Cad\FormCad2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Cad\FormCad3.Designer.vb">
+      <DependentUpon>FormCad3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Cad\FormCad3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Arit\FormArit1.Designer.vb">
+      <DependentUpon>FormArit1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Arit\FormArit1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Arit\FormArit2.Designer.vb">
+      <DependentUpon>FormArit2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Arit\FormArit2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Arit\FormArit3.Designer.vb">
+      <DependentUpon>FormArit3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Arit\FormArit3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\Arit\FormArit4.Designer.vb">
+      <DependentUpon>FormArit4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\Arit\FormArit4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BasePrimari\FormAlt.Designer.vb">
       <DependentUpon>FormAlt.vb</DependentUpon>
     </Compile>
@@ -163,12 +247,7 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BasePrimari\Alt\" />
-    <Folder Include="BasePrimari\Area\" />
-    <Folder Include="BasePrimari\Arit\" />
-    <Folder Include="BasePrimari\Cad\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

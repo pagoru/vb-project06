@@ -4,7 +4,69 @@
     End Sub
 
 #Region "Loads"
+    'Mostra en el panel la opcio
+    'Aritmetica 4
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Arit4()
+        Title.Text = "Multiplicació de dos números"
+        Text_Input1.Text = "Número 1"
+        Text_Input2.Text = "Número 2"
+        Return False
+    End Function
 
+    'Mostra en el panel la opcio
+    'Aritmetica 3
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Arit3()
+        Title.Text = "Divisió de dos números"
+        Text_Input1.Text = "Número 1"
+        Text_Input2.Text = "Número 2"
+        Return False
+    End Function
+
+    'Mostra en el panel la opcio
+    'Aritmetica 2
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Arit2()
+        Title.Text = "Resta de dos números"
+        Text_Input1.Text = "Número 1"
+        Text_Input2.Text = "Número 2"
+        Return False
+    End Function
+
+    'Mostra en el panel la opcio
+    'Aritmetica 1
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Arit1()
+        Title.Text = "Suma de dos números"
+        Text_Input1.Text = "Número 1"
+        Text_Input2.Text = "Número 2"
+        Return False
+    End Function
 #End Region
 #Region "Calculs"
     'Mostra per el label de

@@ -4,7 +4,55 @@
     End Sub
 
 #Region "Loads"
+    'Mostra en el panel la opcio
+    'Alternativa 3
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Alt3()
+        Title.Text = "La taula de múltiplicar d’un número del 1 al n número indicat."
+        Text_Input1.Text = "Número a multiplicar"
+        Text_Input2.Text = "Número limit"
+        ListBoxResult.Visible = True
+        Return False
+    End Function
 
+    'Mostra en el panel la opcio
+    'Alternativa 2
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Alt2()
+        Title.Text = "Fibornacci de n números: (7) 1 1 2 3 5 8 13"
+        Text_Input1.Text = "Número enter"
+        ListBoxResult.Visible = True
+        Input2.Visible = False
+        Return False
+    End Function
+
+    'Mostra en el panel la opcio
+    'Alternativa 1
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Alt1()
+        Title.Text = "Transformar un numero enter, com màxim el 999.999.999, a lletres (castellà o català), per exemple 1567 -> ‘mil quinientos sesenta y siete’."
+        Text_Input1.Text = "Número enter"
+        Input2.Visible = False
+        Return False
+    End Function
 #End Region
 #Region "Calculs"
     'Mostra per el label de

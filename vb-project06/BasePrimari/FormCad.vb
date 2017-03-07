@@ -4,7 +4,53 @@
     End Sub
 
 #Region "Loads"
+    'Mostra en el panel la opcio
+    'Cadena de Caracters 3
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Cad3()
+        Title.Text = "Donat dos caracters dins quantes vegades apareix aquest dos caracters seguints en una frase."
+        Text_Input1.Text = "Cadena de carácters"
+        Text_Input2.Text = "Dos carácters a buscar"
+        Return False
+    End Function
 
+    'Mostra en el panel la opcio
+    'Cadena de Caracters 2
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Cad2()
+        Title.Text = "Donada una cadena mostrar el número de vocals i consonants que té la cadena."
+        Text_Input1.Text = "Cadena de carácters"
+        Input2.Visible = False
+        Return False
+    End Function
+
+    'Mostra en el panel la opcio
+    'Cadena de Caracters 1
+    'Aquesta mostra el panel, un titol
+    'adequat per aquesta vista de panel
+    'Tambe posa invisible els inputs
+    'no necessaris del panel i selecciona
+    'un metode per elegir si les opcions
+    'disponibles del click dret sobre els
+    'inputs
+    Private Function View_Cad1()
+        Title.Text = "Donada una cadena mostrar la seva invertida"
+        Text_Input1.Text = "Cadena de carácters"
+        Input2.Visible = False
+        Return False
+    End Function
 #End Region
 #Region "Calculs"
     'Mostra per el label de
