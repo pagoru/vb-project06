@@ -20,3 +20,19 @@ D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.vbp
 D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb_project06.Form.resources
 D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb_project06.Resources.resources
 D:\i-workspace\visual basic\vb-project06\vb-project06\obj\Debug\vb-project06.vbproj.GenerateResource.Cache
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\bin\Debug\vb-project06.exe.config
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\bin\Debug\vb-project06.exe
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\bin\Debug\vb-project06.pdb
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\bin\Debug\vb-project06.xml
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb-project06.vbprojResolveAssemblyReference.cache
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.Form.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.Resources.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb-project06.vbproj.GenerateResource.Cache
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb-project06.exe
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb-project06.xml
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb-project06.pdb
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormBasePrimari.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormCad.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormAlt.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArea.resources
+C:\Users\pgonzalez\Desktop\vb-project06\vb-project06\obj\Debug\vb_project06.FormArit.resources

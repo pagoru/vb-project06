@@ -72,11 +72,41 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="BasePrimari\FormAlt.Designer.vb">
+      <DependentUpon>FormAlt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\FormAlt.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="BasePrimari\FormArea.Designer.vb">
+      <DependentUpon>FormArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\FormArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\FormArit.Designer.vb">
+      <DependentUpon>FormArit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\FormArit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePrimari\FormCad.Designer.vb">
+      <DependentUpon>FormCad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BasePrimari\FormCad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBasePrimari.Designer.vb">
+      <DependentUpon>FormBasePrimari.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBasePrimari.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,8 +126,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="BasePrimari\FormAlt.resx">
+      <DependentUpon>FormAlt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\FormArea.resx">
+      <DependentUpon>FormArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\FormArit.resx">
+      <DependentUpon>FormArit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePrimari\FormCad.resx">
+      <DependentUpon>FormCad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBasePrimari.resx">
+      <DependentUpon>FormBasePrimari.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -117,6 +162,12 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BasePrimari\Alt\" />
+    <Folder Include="BasePrimari\Area\" />
+    <Folder Include="BasePrimari\Arit\" />
+    <Folder Include="BasePrimari\Cad\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
